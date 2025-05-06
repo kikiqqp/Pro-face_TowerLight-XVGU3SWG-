@@ -1,9 +1,9 @@
 # Pro-face_TowerLight-XVGU3SWG-
-Pro-face XVGU3SWG Tower Light: Multi-color display, USB/Ethernet connectivity, ideal for industrial settings, clear status indication, easy installation, durable, meets automation needs.
+Pro-face XVGU3SWG Tower Light: Multi-color display, USB connectivity, ideal for industrial settings, clear status indication, easy installation, durable, meets automation needs.
 
 # Pro-face XVGU3SWG Tower Light Control Library in C
 
-The Pro-face XVGU3SWG Tower Light Control Library, rewritten in C, offers a high-performance, lightweight solution for controlling the XVGU3SWG tower light, a multi-layer industrial indicator with USB and Ethernet connectivity. This library reimplements and enhances the functionality of the original TLUSBCom.dll and EZ_TLCom.dll, enabling seamless management of the tower light’s LED layers and buzzer in industrial automation systems. Optimized for Windows (Windows 7 and above), it uses the WinUSB framework for direct USB communication, eliminating proprietary driver dependencies and supporting both 32-bit and 64-bit architectures.
+The Pro-face XVGU3SWG Tower Light Control Library, rewritten in C, offers a high-performance, lightweight solution for controlling the XVGU3SWG tower light, a multi-layer industrial indicator with USB connectivity. This library reimplements and enhances the functionality of the original TLUSBCom.dll and EZ_TLCom.dll, enabling seamless management of the tower light’s LED layers and buzzer in industrial automation systems. Optimized for Windows (Windows 7 and above), it uses the WinUSB framework for direct USB communication, eliminating proprietary driver dependencies and supporting both 32-bit and 64-bit architectures.
 
 ## Key Features
 - **LED Control**: Precisely manage the three LED layers (bottom, middle, top), each supporting red, green, and blue colors. Set states (ON, OFF, DUTY) and patterns (constant, slow blink, fast blink) for flexible visual signaling.
@@ -50,7 +50,7 @@ This library is ideal for developers needing a reliable, efficient solution for 
 
 # Pro-face XVGU3SWG タワーライト制御ライブラリ（C言語）
 
-Pro-face XVGU3SWG タワーライト制御ライブラリは、C言語で再実装された高効率かつ軽量なソリューションであり、USBおよびイーサネット接続を備えた多層産業用インジケータであるXVGU3SWGタワーライトを管理します。このライブラリは、元のTLUSBCom.dllおよびEZ_TLCom.dllの機能を再現し、強化し、産業オートメーション環境でのLED層およびブザーのシームレスな制御を実現します。Windows（Windows 7以降）向けに最適化されており、WinUSBフレームワークを活用して独自のドライバを不要とし、32ビットおよび64ビットアーキテクチャをサポートします。
+Pro-face XVGU3SWG タワーライト制御ライブラリは、C言語で再実装された高効率かつ軽量なソリューションであり、USB接続を備えた多層産業用インジケータであるXVGU3SWGタワーライトを管理します。このライブラリは、元のTLUSBCom.dllおよびEZ_TLCom.dllの機能を再現し、強化し、産業オートメーション環境でのLED層およびブザーのシームレスな制御を実現します。Windows（Windows 7以降）向けに最適化されており、WinUSBフレームワークを活用して独自のドライバを不要とし、32ビットおよび64ビットアーキテクチャをサポートします。
 
 ## 主な機能
 - **LED制御**: 3層（底部、中間、上部）のLEDを精密に管理し、各層で赤、緑、青の色をサポート。状態（オン、オフ、デューティ）およびパターン（常時点灯、遅い点滅、速い点滅）を設定可能。
@@ -97,7 +97,7 @@ int main() {
 
 # Pro-face XVGU3SWG塔燈控制庫（C語言）
 
-Pro-face XVGU3SWG塔燈控制庫是以C語言重新實現的高效、輕量級解決方案，用於控制XVGU3SWG塔燈，這是一款支援USB和乙太網連接的多層工業指示器。此庫重現並增強了原有TLUSBCom.dll和EZ_TLCom.dll的功能，提供工業自動化系統中對塔燈LED層和蜂鳴器的無縫控制。該庫針對Windows系統（Windows 7及以上）進行優化，採用WinUSB框架實現直接USB通信，無需專有驅動程式，支援32位元和64位元架構。
+Pro-face XVGU3SWG塔燈控制庫是以C語言重新實現的高效、輕量級解決方案，用於控制XVGU3SWG塔燈，這是一款支援USB多層工業指示器。此庫重現並增強了原有TLUSBCom.dll和EZ_TLCom.dll的功能，提供工業自動化系統中對塔燈LED層和蜂鳴器的無縫控制。該庫針對Windows系統（Windows 7及以上）進行優化，採用WinUSB框架實現直接USB通信，無需專有驅動程式，支援32位元和64位元架構。
 
 ## 主要功能
 - **LED控制**：精確管理三層LED（底部、中間、頂部），每層支援紅、綠、藍三色。可設定LED狀態（開、關、占空比）和模式（恆亮、慢閃、快閃），實現靈活的視覺信號。
